@@ -26,12 +26,12 @@ Users should be able to:
 - Navigate the slider using either their mouse/trackpad or keyboard
 
 ### Screenshot
-
+![Frontend Mentor  Room homepage](https://user-images.githubusercontent.com/44214523/131536310-ac9b3697-4e68-4f06-9273-c4413f577b6d.png)
 
 ### Links
 
-- Solution URL: [view codes](https://your-solution-url.com)
-- Live Site URL: [Go live](https://determined-knuth-12c793.netlify.app/)
+- Solution URL: [view codes](https://www.frontendmentor.io/solutions/responsive-room-homepage-using-css-flexbox-and-vanilla-javascript-kB11NzD5N)
+- Live Site URL: [Go live](https://vigorous-noether-686b27.netlify.app/)
 
 ## My process
 
