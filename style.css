@@ -316,7 +316,7 @@ section p {
         position: relative;
         flex: 0 0 40%;
         max-width: 40%;
-        padding: 8rem;
+        padding: 7rem 8rem;
     }
 
     .about {
@@ -335,7 +335,7 @@ section p {
     .about__footer {
         flex: 0 0 30%;
         max-width: 30%;
-        height: 258px;
+        height: 100%;
         
     }
 
