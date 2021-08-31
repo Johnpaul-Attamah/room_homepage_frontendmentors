@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [view codes](https://your-solution-url.com)
+- Solution URL: [view codes](https://www.frontendmentor.io/solutions/responsive-room-homepage-using-css-flexbox-and-vanilla-javascript-kB11NzD5N)
 - Live Site URL: [Go live](https://vigorous-noether-686b27.netlify.app/)
 
 ## My process
