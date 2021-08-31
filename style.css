@@ -404,6 +404,7 @@ section p {
     }
 
     .attribution {
+        width: 50%;
         top: 30%;
         font-size: 11px;
         color: var(--color-white);
