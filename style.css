@@ -256,6 +256,20 @@ section p {
     z-index: 99;
 }
 
+.attribution {
+    position: absolute;
+    top: 35%;
+    left: 1.5rem;
+    transform: translate(-50%) rotate(-90deg);
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: hsl(228, 45%, 44%);
+}
+.attribution a { 
+    color: var(--color-black); 
+}
+
 @media screen and (min-width: 520px) {
     .about__header,
     .about__footer {
@@ -387,6 +401,12 @@ section p {
 
     .about__body h2 {
         font-size: 1.2rem;
+    }
+
+    .attribution {
+        top: 30%;
+        font-size: 11px;
+        color: var(--color-white);
     }
 
 }

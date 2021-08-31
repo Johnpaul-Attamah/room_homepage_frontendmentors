@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container">
-        <header class="main__header">
+        <header class="main__header" role="heading">
             <div class="header__img">
                 <img srcset="./images/mobile/mobile-image-hero-1.jpg 375w,
                     ./images/desktop/desktop-image-hero-1.jpg 840w,"
@@ -32,7 +32,7 @@
                 <div class="logo">
                     <img src="./images/vectors/logo.svg" alt="main logo">
                 </div>
-                <nav class="main__header--nav">
+                <nav class="main__header--nav" role="navigation">
                     <div class="main__header--nav-close">
                         <img src="./images/vectors/icon-close.svg" alt="close navigation" class="close">
                     </div>
@@ -45,7 +45,7 @@
                 </nav>
             </div>
         </header>
-        <section class="home--section">
+        <section class="home--section" role="main">
             <div class="carousel__control">
                 <img src="./images/vectors/icon-angle-left.svg" alt="carousel control left" class="prev">
                 <img src="./images/vectors/icon-angle-right.svg" alt="carousel control right" class="next">
@@ -58,7 +58,7 @@
                 <span><a href="#"><img src="./images/vectors/icon-arrow.svg" alt="right arrow"></a></span>
             </div>
         </section>
-        <section class="about">
+        <section class="about" role="contentinfo">
             <header class="about__header"></header>
             <section class="about__body">
                 <h2>About our furniture</h2>
@@ -66,6 +66,10 @@
             </section>
             <section class="about__footer"></section>
         </section>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/Johnpaul-Attamah" target="_blank">Johnpaul Attamah</a>.
+        </div>
         <div class="overlay"></div>
     </div>
 
