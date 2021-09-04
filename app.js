@@ -13,10 +13,7 @@
         bgOverlay.classList.remove('visible');
 
         //Restore body
-        const scrollY = document.body.style.top;
-        document.body.style.position = '';
-        document.body.style.top = '';
-        window.scrollTo(0, parseInt(scrollY || '0') * -1);
+        document.body.style.overflow = 'auto';
     })
 
     navOpen.addEventListener('click', () => {
@@ -24,8 +21,16 @@
         bgOverlay.classList.add('visible');
         
         //prevent body from scrolling
-        document.body.style.position = 'fixed';
-        document.body.style.top = `-${window.scrollY}px`;
+        document.body.style.overflow = 'hidden';
+    })
+
+    window.addEventListener('resize', () => {
+        if(window.innerWidth > 1300) {
+            if(nav.classList.contains('open')) {
+                bgOverlay.classList.remove('visible');
+                document.body.style.overflow = 'auto';
+            }
+        }
     })
 })();
 
